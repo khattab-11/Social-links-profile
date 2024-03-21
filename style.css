@@ -1,0 +1,133 @@
+
+                
+                body{
+                    padding: 0;
+                    margin: 0;
+                    font-family:'Inter', sans-serif;
+                    background: hsl(0, 0%, 8%);
+                }
+
+                    form{
+                        position:absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 300px;
+                        height: 500px;
+                        background:hsl(0, 0%, 12%);
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        border-bottom-right-radius:15px;
+                        border-bottom-left-radius: 15px;
+                    }
+                        h1{
+                            position: absolute;
+                            font-size: 22px;
+                            top: 24%;
+                            left: 37%;
+                            color:  hsl(0, 0%, 100%);
+                            width: 200px;
+                            height: 50px;
+                        } 
+                     
+                        h2{
+                            position: absolute;
+                            font-size: 12px;
+                            top: 32%;
+                            left: 36%;  
+                            color: hsl(75, 94%, 57%);
+                            width: 200px;
+                            height: 50px;
+                        }
+
+                        h3{
+                            position: absolute;
+                            font-size: 13px;
+                            top: 36%;
+                            left: 23%;
+                            width: 200px;
+                            height: 50px;
+                            color:  hsl(0, 0%, 100%);
+                        }
+
+                                img{
+                                    position: absolute;
+                                    top: 7%;
+                                    left: 35%;
+                                    width: 90px;
+                                    height: 90px;
+                                }
+
+                                #github-button {
+                                position: absolute;
+                                font-size: 14px;
+                                border: none;
+                                top: 44%;
+                                left: 10%;
+                                padding: 7px 100px;
+                                border-radius: 5px;
+                                background-color: hsl(0, 1%, 27%);
+                                color: hsl(0, 0%, 100%);
+                                width: 250px;  
+                                height: 35px;
+                                }
+
+                                #Frontend-button{
+                                    font-size: 14px;
+                                    position: absolute;
+                                    border: none;
+                                    top: 54%;
+                                    left: 10%;
+                                    padding: 7px 69px;
+                                    border-radius: 5px;
+                                    background-color: hsl(0, 1%, 27%);
+                                    color: hsl(0, 0%, 100%);
+                                    width: 250px;  
+                                    height: 35px;
+                                }
+
+                                #Linkedin-button{
+                                    font-size: 13px;
+                                    position: absolute;
+                                    border: none;
+                                    top: 64%;
+                                    left: 10%;
+                                    padding: 7px 97px;
+                                    border-radius: 5px;
+                                    background-color: hsl(0, 1%, 27%);
+                                    color: hsl(0, 0%, 100%);
+                                    width: 250px;  
+                                    height: 35px;
+                                }
+
+                                #Twitter-button{
+                                    font-size: 13px;
+                                    position: absolute;
+                                    border: none;
+                                    top: 74%;
+                                    left: 10%;
+                                    padding: 7px 100px;
+                                    border-radius: 5px;
+                                    background-color: hsl(0, 1%, 27%);
+                                    color: hsl(0, 0%, 100%);
+                                    width: 250px;  
+                                    height: 35px;
+                                }
+
+                                #instagram-button{
+                                    font-size: 13px;
+                                    position: absolute;
+                                    border: none;
+                                    top: 84%;
+                                    left: 10%;
+                                    padding: 7px 93px;
+                                    border-radius: 5px;
+                                    background-color: hsl(0, 1%, 27%);
+                                    color: hsl(0, 0%, 100%);
+                                    width: 250px;  
+                                    height: 35px;
+                                }
+
+                                #github-button, #Frontend-button, #Linkedin-button, #Twitter-button, #instagram-button {
+                                    cursor: pointer; 
+                                }
